@@ -1,0 +1,22 @@
+config:
+  api_key: Fill data
+  product_id: Fill Data
+  api_url: https://tqtkw327jf.execute-api.us-east-2.amazonaws.com/api
+
+data:
+  - version: v1.0
+    feature: ecomerse
+    scenario: principal screen
+    step_number: 1
+    step: startup
+    case: firefox
+    image: amazon.png
+
+  - version: v1.0
+    feature: ecomerse
+    scenario: principal screen
+    step_number: 1
+    step: startup
+    case: safari
+    image: amazon_safari.png
+
