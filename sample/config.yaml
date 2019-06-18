@@ -11,6 +11,14 @@ data:
     step: startup
     case: firefox
     image: amazon.png
+    
+  - version: v1.0
+    feature: ecomerse
+    scenario: principal screen
+    step_number: 2
+    step: navigate home
+    case: firefox
+    image: amazon.png
 
   - version: v1.0
     feature: ecomerse
